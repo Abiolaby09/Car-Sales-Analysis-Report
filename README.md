@@ -1,4 +1,4 @@
-# Car-Sales-Analysis-Report
+   # Car-Sales-Analysis-Report
 This is a sales report of product by transmissions, countries, Gender and many more
 
 ---
@@ -39,3 +39,14 @@ _The dataset includes the following columns:_
 > - Dealer_Region: Geographic location where the car was sold
 ## Data Visualization
 To view the data Bi dashboard , click here 
+
+## Dashboard Visuals 
+
+## SQL
+```sql
+SELECT * FROM CarSales
+```
+
+```sql
+SELECT Car_id FROM CarSales
+```
