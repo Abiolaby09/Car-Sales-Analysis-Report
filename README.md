@@ -50,3 +50,42 @@ SELECT * FROM CarSales
 ```sql
 SELECT Car_id FROM CarSales
 ```
+
+```sql
+SELECT DISTINCT [Customer Name] FROM CarSales;
+```
+
+```sql
+SELECT DISTINCT Company FROM CarSales;
+```
+
+```sql
+SELECT * FROM CarSales WHERE [Price ($)] > 400000;
+```
+
+```sql
+SELECT * FROM CarSales WHERE Dealer_Region = 'Austin';
+```
+
+```sql
+SELECT * FROM CarSales WHERE Transmission = 'Automatic';
+```
+
+```sql
+SELECT Company, AVG([Price ($)]) AS AvgPrice FROM CarSales GROUP BY Company;
+```
+
+```sql
+SELECT Dealer_Region, SUM([Price ($)]) AS TotalRevenue FROM CarSales GROUP BY Dealer_Region;
+```
+
+```sql
+SELECT Gender, COUNT(Car_id) AS CarsSold FROM CarSales GROUP BY Gender;
+``
+
+
+
+
+
+
+
