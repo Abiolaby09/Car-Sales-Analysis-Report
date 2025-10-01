@@ -40,7 +40,8 @@ _The dataset includes the following columns:_
 ## Data Visualization
 To view the data Bi dashboard , click here 
 
-## Dashboard Visuals 
+## Dashboard Visuals ![Uploading car sales dashboard.png…]()
+
 
 ## SQL
 ```sql
